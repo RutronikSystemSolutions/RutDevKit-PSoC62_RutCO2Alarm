@@ -1,5 +1,5 @@
 
-<CyMemoryConfiguration version="3">
+<CyMemoryConfiguration version="4">
     <PartNumber>APS6404L-3SQR-ZR</PartNumber>
     <Configuration>Uniform</Configuration>
     <Default>false</Default>
@@ -17,101 +17,137 @@
         <Command>
             <CommandDescription>Read</CommandDescription>
             <CommandName>readCmd</CommandName>
-            <CommandNumber>0x03</CommandNumber>
+            <CommandNumber>0x0B</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
-            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
-            <DummyCycles>0</DummyCycles>
+            <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
+            <DummyCycles>8</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Write Enable</CommandDescription>
             <CommandName>writeEnCmd</CommandName>
             <CommandNumber>0x00</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_NA</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_NA</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Write Disable</CommandDescription>
             <CommandName>writeDisCmd</CommandName>
             <CommandNumber>0x00</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_NA</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_NA</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Erase</CommandDescription>
             <CommandName>eraseCmd</CommandName>
             <CommandNumber>0x00</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_NA</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_NA</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Chip Erase</CommandDescription>
             <CommandName>chipEraseCmd</CommandName>
             <CommandNumber>0x00</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_NA</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_NA</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Program</CommandDescription>
             <CommandName>programCmd</CommandName>
             <CommandNumber>0x02</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
-            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Read QE Register</CommandDescription>
             <CommandName>readStsRegQeCmd</CommandName>
             <CommandNumber>0x00</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_NA</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_NA</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Read WIP Register</CommandDescription>
             <CommandName>readStsRegWipCmd</CommandName>
             <CommandNumber>0x00</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_NA</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_NA</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Write QE Register</CommandDescription>
             <CommandName>writeStsRegQeCmd</CommandName>
             <CommandNumber>0x35</CommandNumber>
-            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
-            <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
+            <CmdWidth>CY_SMIF_WIDTH_NA</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
+            <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
-            <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
+            <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
-            <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
+            <DataWidth>CY_SMIF_WIDTH_NA</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
     </Commands>
     <Commands mode="Quad">
@@ -119,100 +155,136 @@
             <CommandDescription>Read</CommandDescription>
             <CommandName>readCmd</CommandName>
             <CommandNumber>0xEB</CommandNumber>
-            <CmdWidth>CY_SMIF_WIDTH_QUAD</CmdWidth>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_QUAD</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
-            <DummyCycles>0</DummyCycles>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
+            <DummyCycles>6</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_QUAD</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Write Enable</CommandDescription>
             <CommandName>writeEnCmd</CommandName>
             <CommandNumber>0x00</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_NA</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_NA</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Write Disable</CommandDescription>
             <CommandName>writeDisCmd</CommandName>
             <CommandNumber>0x00</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_NA</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_NA</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Erase</CommandDescription>
             <CommandName>eraseCmd</CommandName>
             <CommandNumber>0x00</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_NA</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_NA</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Chip Erase</CommandDescription>
             <CommandName>chipEraseCmd</CommandName>
             <CommandNumber>0x00</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_NA</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_NA</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Program</CommandDescription>
             <CommandName>programCmd</CommandName>
             <CommandNumber>0x38</CommandNumber>
-            <CmdWidth>CY_SMIF_WIDTH_QUAD</CmdWidth>
+            <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_QUAD</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
-            <ModeWidth>CY_SMIF_WIDTH_QUAD</ModeWidth>
+            <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_QUAD</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Read QE Register</CommandDescription>
             <CommandName>readStsRegQeCmd</CommandName>
             <CommandNumber>0x00</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_NA</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_NA</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Read WIP Register</CommandDescription>
             <CommandName>readStsRegWipCmd</CommandName>
             <CommandNumber>0x00</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_NA</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_NA</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
         <Command>
             <CommandDescription>Write QE Register</CommandDescription>
             <CommandName>writeStsRegQeCmd</CommandName>
             <CommandNumber>0x00</CommandNumber>
             <CmdWidth>CY_SMIF_WIDTH_NA</CmdWidth>
+            <CmdRate>CY_SMIF_SDR</CmdRate>
             <AddrWidth>CY_SMIF_WIDTH_NA</AddrWidth>
+            <AddrRate>CY_SMIF_SDR</AddrRate>
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+            <ModeRate>CY_SMIF_SDR</ModeRate>
             <DummyCycles>0</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_NA</DataWidth>
+            <DataRate>CY_SMIF_SDR</DataRate>
         </Command>
     </Commands>
 </CyMemoryConfiguration>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Design version="12" xmlns="http://cypress.com/xsd/cydesignfile_v3">
-    <ToolInfo version="2.3.0.4276"/>
+    <ToolInfo version="2.3.1.4663"/>
     <Devices>
         <Device mpn="CY8C6245AZI-S3D72">
             <BlockConfig>
@@ -63,7 +63,7 @@
                     <Alias value="ARDU_IO8"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[0]">
-                    <Alias value="POT_ADC"/>
+                    <Alias value="ARDU_ADC1"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[1]">
                     <Alias value="ARDU_ADC2"/>
@@ -75,10 +75,10 @@
                     <Alias value="ARDU_ADC4"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[4]">
-                    <Alias value="ARDU_ADC5"/>
+                    <Alias value="POT_ADC"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[5]">
-                    <Alias value="ARDU_ADC6"/>
+                    <Alias value="BAT_ADC"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[6]">
                     <Alias value="ARDU_IO5"/>
