@@ -8,7 +8,7 @@
 #ifndef SPEECH_TASK_H_
 #define SPEECH_TASK_H_
 
-typedef struct speech_sensor
+typedef struct speech_engine
 {
 	 uint8_t phrase_number;
 }speech_t;

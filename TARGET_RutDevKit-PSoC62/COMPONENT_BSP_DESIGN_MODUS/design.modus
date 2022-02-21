@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Design version="12" xmlns="http://cypress.com/xsd/cydesignfile_v3">
-    <ToolInfo version="2.3.1.4663"/>
+    <ToolInfo version="2.4.0.5972"/>
     <Devices>
         <Device mpn="CY8C6245AZI-S3D72">
             <BlockConfig>
@@ -430,7 +430,7 @@
                 </Block>
                 <Block location="srss[0].clock[0].imo[0]">
                     <Personality template="mxs40imo" version="1.0">
-                        <Param id="trim" value="1"/>
+                        <Param id="trim" value="0.25"/>
                     </Personality>
                 </Block>
                 <Block location="srss[0].clock[0].lfclk[0]">
